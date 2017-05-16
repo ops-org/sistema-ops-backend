@@ -30,6 +30,15 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+OPS_APPS = [
+    'base',
+    'cap',
+    'dialogo',
+    'empresa',
+    'parlamentar',
+    'trabalho'
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
