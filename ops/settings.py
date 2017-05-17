@@ -36,7 +36,8 @@ OPS_APPS = [
     'dialogo',
     'empresa',
     'parlamentar',
-    'trabalho'
+    'trabalho',
+    'siteops'
 ]
 
 INSTALLED_APPS = [
